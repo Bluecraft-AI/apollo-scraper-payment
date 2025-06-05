@@ -1,0 +1,12 @@
+{
+  "actorSpecification": 1,
+  "name": "fillout-apollo-connector",
+  "title": "Fillout Apollo Scraper Connector",
+  "description": "Connects Fillout forms with Apollo Scraper for automated lead extraction",
+  "version": "1.0.0",
+  "meta": {
+    "templateId": "node-js"
+  },
+  "input": "./input_schema.json",
+  "dockerfile": "./Dockerfile"
+} 

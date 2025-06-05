@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluecraft Leads - Resources Hub</title>
+    <link rel="icon" type="image/png" href="/assets/favicon.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #205cff 0%, #4a90e2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #205cff 0%, #4a90e2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+
+        .header p {
+            font-size: 1.3rem;
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+
+        .services {
+            padding: 60px 40px;
+        }
+
+        .services h2 {
+            text-align: center;
+            color: #333;
+            font-size: 2.2rem;
+            margin-bottom: 50px;
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .service-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 40px 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(32, 92, 255, 0.15);
+            border-color: #205cff;
+        }
+
+        .service-icon {
+            font-size: 3rem;
+            color: #205cff;
+            margin-bottom: 20px;
+        }
+
+        .service-card h3 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .service-card p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .service-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #205cff 0%, #4a90e2 100%);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .coming-soon {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+
+        .coming-soon .service-badge {
+            background: #6c757d;
+        }
+
+        .footer {
+            background: #f8f9fa;
+            padding: 30px 40px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #e1e5e9;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.5rem;
+            }
+            
+            .header p {
+                font-size: 1.1rem;
+            }
+            
+            .services {
+                padding: 40px 20px;
+            }
+            
+            .service-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .footer {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-star"></i> Bluecraft Leads</h1>
+            <p>Your Complete Lead Generation & Outreach Solution</p>
+        </div>
+
+        <div class="services">
+            <h2>Our Resources</h2>
+            
+            <div class="service-grid">
+                <a href="/lead-scraper" class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Apollo Lead Scraper</h3>
+                    <p>Extract high-quality leads from Apollo.io for 50% off. Get up to 50K leads with work & personal emails.</p>
+                    <span class="service-badge">50% Off Launch Special</span>
+                </a>
+
+                <a href="/playbook" class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <h3>Cold Email Playbook</h3>
+                    <p>Complete guide and templates for effective cold email campaigns that get responses and drive sales.</p>
+                    <span class="service-badge">Free Resource</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 Bluecraft Leads. All rights reserved. | Professional lead generation solutions.</p>
+        </div>
+    </div>
+</body>
+</html> 
