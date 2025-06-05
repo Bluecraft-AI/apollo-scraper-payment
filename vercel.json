@@ -1,14 +1,6 @@
 {
   "rewrites": [
     {
-      "source": "/playbook",
-      "destination": "/playbook/index.html"
-    },
-    {
-      "source": "/playbook/(.*\\.(js|css))",
-      "destination": "/playbook/$1"
-    },
-    {
       "source": "/lead-scraper",
       "destination": "/lead-scraper/index.html"
     },
