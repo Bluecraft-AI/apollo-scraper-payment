@@ -1,6 +1,6 @@
 # Bluecraft Leads' Resources
 
-This repository serves as the main hub for all Bluecraft Leads' Public Resources hosted at [resource.bluecraftleads.com](https://resource.bluecraftleads.com).
+This repository serves as the main hub for all Bluecraft Leads' public resources hosted at [resource.bluecraftleads.com](https://resource.bluecraftleads.com).
 
 ## Our Rescources
 
@@ -10,6 +10,6 @@ This repository serves as the main hub for all Bluecraft Leads' Public Resources
 
 ### Cold Email Playbook
 
-**What this is:** Our Complete guide and templates for effective cold email campaigns, hosted at [resource.bluecraftleads.com/playbook](https://resources.bluecraftleads.com/playbook)
+**What this is:** Our complete guide and templates for effective cold email campaigns, hosted at [resource.bluecraftleads.com/playbook](https://resources.bluecraftleads.com/playbook)
 
 ### More to come...
