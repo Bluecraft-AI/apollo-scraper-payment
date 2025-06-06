@@ -92,6 +92,7 @@
             font-size: 1rem;
             line-height: 1.6;
             margin-bottom: 10px;
+            text-align: left;
         }
 
         .timeline {
@@ -206,13 +207,13 @@
         }
 
         .btn-primary {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #205cff 0%, #4a90e2 100%);
             color: white;
         }
 
         .btn-primary:hover {
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+            box-shadow: 0 10px 20px rgba(32, 92, 255, 0.3);
         }
 
         .btn-secondary {
@@ -278,43 +279,19 @@
                 <p>Your CSV file will be delivered to your email address within the next few minutes.</p>
             </div>
 
-            <div class="timeline">
-                <h3><i class="fas fa-list"></i> Processing Status</h3>
-                
-                <div class="timeline-item completed">
-                    <i class="fas fa-check"></i>
-                    <span>Payment received and verified</span>
-                </div>
-                
-                <div class="timeline-item processing">
-                    <i class="fas fa-spinner fa-spin"></i>
-                    <span>Extracting leads from Apollo.io</span>
-                </div>
-                
-                <div class="timeline-item">
-                    <i class="fas fa-file-csv"></i>
-                    <span>Generating CSV file</span>
-                </div>
-                
-                <div class="timeline-item">
-                    <i class="fas fa-envelope"></i>
-                    <span>Delivering to your email</span>
-                </div>
-            </div>
-
             <div class="order-details" id="orderDetails">
                 <h3><i class="fas fa-receipt"></i> Order Details</h3>
                 <div class="detail-row">
                     <span class="detail-label">Processing Time:</span>
-                    <span class="detail-value">5-10 minutes</span>
+                    <span class="detail-value">30 minutes</span>
                 </div>
                 <div class="detail-row">
                     <span class="detail-label">Delivery Method:</span>
-                    <span class="detail-value">Email (CSV file)</span>
+                    <span class="detail-value">Email</span>
                 </div>
                 <div class="detail-row">
                     <span class="detail-label">File Format:</span>
-                    <span class="detail-value">CSV with contact details</span>
+                    <span class="detail-value">CSV</span>
                 </div>
             </div>
 
@@ -323,16 +300,12 @@
                     <i class="fas fa-home"></i>
                     Return to Apollo Scraper
                 </a>
-                <a href="/apollo-scraper" class="btn btn-secondary">
-                    <i class="fas fa-plus"></i>
-                    Place Another Order
-                </a>
             </div>
 
             <div class="support-info">
                 <i class="fas fa-info-circle"></i>
                 <strong>Need Help?</strong>
-                If you don't receive your leads within 10 minutes, please check your spam folder or contact our support team.
+                If you don't receive your leads within 30 minutes, please check your spam folder or contact our support team.
             </div>
         </div>
     </div>
